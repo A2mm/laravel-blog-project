@@ -1,0 +1,259 @@
+body{
+	background-color: #eee;
+}
+.navbar{
+	border-radius: 0;
+	background-color: black;
+}
+
+.navbar-nav li{
+	font-weight: bold;
+	font-size: 12px;
+	font-style: italic;
+	font-family: all;
+}
+
+.first-sec{
+	background-color: rgb(0, 0, 50);
+	position: fixed;
+	margin-bottom: 0;
+	padding:10px 25px;
+	font-size: 12px;
+	font-family: ;
+	color: grey;
+	height: 585px;
+	max-width: 100%;
+}
+
+.sub-item a, .item a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.sub-item a:hover, .item a:hover{
+	color: brown;
+}
+
+.sub-item{
+	padding-top: 10px;
+}
+
+.sub-item li{
+	margin-bottom: 10px;
+}
+
+.item{
+	margin: 20px 1px;
+	line-height: 1.6;
+}
+
+.head-item .sub-item li:hover, .item:hover{
+background-color: skyblue;
+}
+
+.head-item .sub-item li, .item{
+padding: 2px;
+}
+
+.sub-item{
+	margin-left: 1px;
+}
+
+.main-part{
+	padding: 10px 1px;
+}
+
+.row-cont{
+	max-width: 100%;
+	margin-top: 50px;
+}
+
+.fas{
+	margin-right: 8px;
+	color: green;
+}
+.copy{
+	font-size: 15px;
+	position: absolute;
+	bottom: 0;
+}
+
+@media(max-width: 500px)
+{
+
+.first-sec{
+		font-size: 10px;
+	}
+
+
+.sub-item{
+	margin-left: 1px;
+    }
+
+.category-slug, .post-title, .post-description{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.post-info{
+	padding-bottom: 15px;
+}
+
+}
+
+.all-posts{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+#panel{
+	border: 2px solid grey;
+	box-shadow: 10px 10px 10px grey;
+}
+
+#headline{
+	background: rgb(213, 213, 255);
+}
+
+.post-title, .category-name{
+	margin: 0px;
+}
+
+.post-description{
+	margin-top: -3px;
+	text-decoration: underline;
+}
+
+#created-at{
+	font-size: 12px;
+	font-style: italic;
+}
+
+.post-content{
+	text-align: justify;
+	line-height: 1.8;
+	font-size: 13px;
+	font-style: italic;
+	font-family: monospace;
+}
+
+#footer{
+	padding: 10px 10px;
+}
+
+#reset, .cancel{
+	background: rgb(211, 211, 211);
+}
+
+.post-actions{
+	border-top: 1px dotted black;
+	padding-top: 10px;
+	margin: 10px 5px;
+}
+
+.perm-deleting-post, .perm-deleting-category{
+	background: red;
+}
+
+.editing-post, .temp-deleting-post, .perm-deleting-post{
+	border-radius: 40px;
+}
+
+.editing-category, .temp-deleting-category, .perm-deleting-category{
+	border-radius: 40px;
+}
+
+.category-posts, .categories-number{
+	font-weight: bold;
+	border: 1px solid grey;
+	padding: 10px;
+	border-radius: 15px;
+	font-family: 'helvatica';
+}
+
+.count-posts, .count-categories{
+	background-color: purple;
+	font-size: 25px;
+}
+
+.hint{
+	font-size:11px ;
+	color: grey;
+	font-style: italic;
+}
+
+.clk-reg{
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.trashedposts-count, .trashedcategories-count{
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+#user-img{
+	width: 40px;
+	height: 25px;
+}
+
+#user-name{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.category-slug{
+	max-width: 100%;
+}
+
+.admin-dashboard-title{
+	text-decoration: underline;
+	background: skyblue;
+	padding: 10px;
+	border: 2px solid grey;
+	border-radius: 25px;
+	margin-bottom: 25px;
+}
+
+.categories{
+	background: green;
+	padding: 10px 25px;
+	text-align: center;
+	border: 2px solid grey;
+	border-radius: 25px;
+}
+
+.categories-count, .posts-count{
+	color: white;
+	font-size: 45px;
+}
+
+.posts{
+	background: orange;
+	padding: 10px 25px;
+	text-align: center;
+	border: 2px solid grey;
+	border-radius: 25px;
+}
+
+.custactive{
+	background: rgb(0, 255, 0);
+}
+
+#error{
+	font-size: 100px;
+	text-align: center;
+	color: red;
+}
+
+.profile-img{
+	border:  2px solid grey; 
+	border-radius: 15px;
+	padding: 10px;
+}
+
+.arrow{
+	font-size: 200px;
+}
