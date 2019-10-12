@@ -1,5 +1,5 @@
 * text=auto
-*.css linguist-language=laravel
+*.css linguist-language=PHP
 *.scss linguist-vendored
 *.js linguist-vendored
 CHANGELOG.md export-ignore
